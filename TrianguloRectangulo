@@ -1,0 +1,19 @@
+public class Hipotenusa {
+	public static void main(String[] args) {
+		double a=3, b=4;
+		double p,e,h1, h2;
+		
+		System.out.println("Hipotenusa");
+		h1=(Math.pow(a, 2)+Math.pow(b, 2));
+		h2=Math.sqrt(h1);
+		System.out.println("El resultado es "+ h2);
+		
+		System.out.println("Area");
+		e=(a*b)/2;
+		System.out.println("El esultado es "+ e);
+		
+		System.out.println("Perimetro");
+		p=(a+b+h2);
+		System.out.println("El resultado es "+ p);
+	}
+}
